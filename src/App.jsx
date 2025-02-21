@@ -66,6 +66,15 @@ export default function Portfolio() {
           Passionate software engineer with 3 years of experience specializing in AI/ML, full-stack development, and distributed systems.
           Adept at crafting scalable and efficient software solutions.
         </p>
+        {/* Social Media Buttons */}
+        <div style={{ display: 'flex', gap: '1rem', marginTop: '1rem' }}>
+          {/*<a href="https://www.linkedin.com/in/amosh-sapkota-991812209" target="_blank" rel="noopener noreferrer" style={{ color: '#79B4F3', fontSize: '2rem' }}>
+            <FaLinkedin />
+          </a> */}
+          <a href="https://github.com/AmoshSapkota" target="_blank" rel="noopener noreferrer" style={{ color: '#79B4F3', fontSize: '2rem' }}>
+            <FaGithub />
+          </a>
+        </div>
         <div style={{ marginTop: '1rem', width: '80%', textAlign: 'center' }}>
           <h3 style={{ color: '#79B4F3' }}>Education</h3>
           <p style={{ color: '#E0E0E0' }}>
