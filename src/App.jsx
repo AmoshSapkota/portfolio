@@ -63,8 +63,7 @@ export default function Portfolio() {
           style={{ width: '150px', height: '150px', borderRadius: '50%', border: '5px solid #79B4F3', boxShadow: '0px 6px 12px rgba(0,0,0,0.3)' }}
         />
         <p style={{ fontSize: '1.2rem', color: '#E0E0E0', marginTop: '1rem', maxWidth: '800px', textAlign: 'center' }}>
-          Passionate software engineer with 3 years of experience specializing in AI/ML, full-stack development, and distributed systems.
-          Adept at crafting scalable and efficient software solutions.
+          Software Engineer with 3+ years of experience in backend and full-stack development, specializing in microservices, distributed systems, and cloud computing. Proficient in Java, Python, SQL, NoSQL, JavaScript, TypeScript, and frameworks like Spring Boot, React, and Node.js. Skilled in API design, event-driven architectures, and performance optimization, with hands-on experience in AWS (EC2, RDS, S3, Lambda), Docker, Kafka, and CI/CD (GitHub Actions, Jenkins). Passionate about building scalable, high-performance applications and automating cloud-based infrastructure, seeking a Software Engineer role to drive innovation in large-scale systems.
         </p>
         {/* Social Media Buttons */}
         <div style={{ display: 'flex', gap: '1rem', marginTop: '1rem' }}>
@@ -84,12 +83,11 @@ export default function Portfolio() {
         <div style={{ marginTop: '1rem', width: '80%', textAlign: 'center' }}>
           <h3 style={{ color: '#79B4F3' }}>Skills</h3>
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px', textAlign: 'left', justifyContent: 'center' }}>
-            <p style={{ color: '#E0E0E0' }}><b>Programming:</b> Python, JavaScript, Java, C#, C++, SQL, NoSQL</p>
-            <p style={{ color: '#E0E0E0' }}><b>Frameworks:</b> Django, Flask, React, Node.js, Spring, .NET</p>
-            <p style={{ color: '#E0E0E0' }}><b>AI/ML:</b> TensorFlow, PyTorch, Scikit-learn, NLP, Deep Learning</p>
-            <p style={{ color: '#E0E0E0' }}><b>Cloud & DevOps:</b> AWS (EC2, S3, RDS, Lambda, Glue, API Gateway), Docker, Kubernetes, CI/CD Pipelines</p>
-            <p style={{ color: '#E0E0E0' }}><b>Databases:</b> PostgreSQL, MySQL, MongoDB, DynamoDB, Oracle</p>
-            <p style={{ color: '#E0E0E0' }}><b>Other Tools:</b> Git, Jenkins, Postman, Agile/Scrum, RESTful APIs</p>
+            <p style={{ color: '#E0E0E0' }}><b>Programming & Scripting Languages:</b> Java, C/++, C#, Python, SQL, NoSQL, HTML, CSS, JavaScript / TypeScript</p>
+            <p style={{ color: '#E0E0E0' }}><b>Frameworks & Cloud Services:</b> Spring Boot, React, Next.js, Node.js, Express.js, Flask, .NET, AWS (S3, EC2, RDS, DynamoDB, Lambda, SageMaker), Apache Kafka, RabbitMQ, Apache Spark, PostgreSQL, MySQL, MongoDB, Redis</p>
+            <p style={{ color: '#E0E0E0' }}><b>AI / ML Tech Stack:</b> TensorFlow, PyTorch, Scikit-learn, Keras, OpenAI API, Transformers</p>
+            <p style={{ color: '#E0E0E0' }}><b>Developer Tools & CI/CD:</b> Git, Jenkins, Docker, Kubernetes, Maven, JUnit, Postman, Ansible, Terraform</p>
+            <p style={{ color: '#E0E0E0' }}><b>Methodologies:</b> Agile, CI/CD, Microservices Architecture, Serverless, APIs (REST, GraphQL, gRPC, WebSockets)</p>
           </div>
         </div>
       </motion.div>
