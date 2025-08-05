@@ -34,7 +34,7 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
             >
-              Full Stack Developer | Cloud Architect | AI Engineer
+              Full Stack Development | Cloud Computing | AI Engineering
             </motion.p>
 
             <motion.div
