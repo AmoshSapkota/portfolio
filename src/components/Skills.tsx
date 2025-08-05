@@ -27,6 +27,10 @@ import {
   SiGraphql,
   SiNextdotjs,
   SiExpress,
+  SiFlask,
+  SiJavascript,
+  SiTensorflow,
+  SiOpenai,
 } from "react-icons/si";
 import { TbBrandAzure } from "react-icons/tb";
 
@@ -36,7 +40,7 @@ const Skills = () => {
       title: "Frontend Development",
       skills: [
         { name: "React", icon: FaReact, color: "text-blue-400" },
-        { name: "Next.js", icon: SiNextdotjs, color: "text-gray-900" },
+        { name: "JavaScript", icon: SiJavascript, color: "text-yellow-500" },
         { name: "TypeScript", icon: SiTypescript, color: "text-blue-600" },
         { name: "Tailwind CSS", icon: SiTailwindcss, color: "text-cyan-400" },
         { name: "Framer Motion", icon: SiFramer, color: "text-pink-500" },
@@ -51,7 +55,7 @@ const Skills = () => {
         { name: "Node.js", icon: FaNodeJs, color: "text-green-400" },
         { name: "Express.js", icon: SiExpress, color: "text-gray-600" },
         { name: "Python", icon: FaPython, color: "text-yellow-400" },
-        { name: "GraphQL", icon: SiGraphql, color: "text-pink-600" },
+        { name: "Flask", icon: SiFlask, color: "text-pink-600" },
       ],
     },
     {
@@ -77,7 +81,7 @@ const Skills = () => {
         { name: "Docker", icon: FaDocker, color: "text-blue-400" },
         { name: "Kubernetes", icon: SiKubernetes, color: "text-blue-600" },
         { name: "Terraform", icon: SiTerraform, color: "text-purple-500" },
-        { name: "Jenkins", icon: SiJenkins, color: "text-blue-700" },
+        { name: "GitHub Actions", icon: FaGitAlt, color: "text-blue-500" },
       ],
     },
     {
@@ -87,12 +91,22 @@ const Skills = () => {
         { name: "Linux", icon: FaLinux, color: "text-black" },
       ],
     },
+    {
+      title: "Artificial Intelligence",
+      skills: [
+        { name: "Computer Vision", icon: SiTensorflow, color: "text-yellow-400" },
+        { name: "LLMs", icon: SiOpenai, color: "text-green-500" },
+        { name: "RAG", icon: SiTensorflow, color: "text-red-500" },
+        { name: "Neural Networks", icon: SiTensorflow, color: "text-orange-400" },
+        { name: "AI Agents", icon: SiOpenai, color: "text-blue-400" },
+      ],
+    },
   ];
 
   return (
     <section
       id="skills"
-      className="py-20 lg:py-28 bg-gradient-to-b from-white to-slate-50"
+      className="py-20 lg:py-28 bg-gradient-to-b from-gray-900 to-gray-800 text-white"
     >
       <div className="container mx-auto px-4 sm:px-6 max-w-7xl">
         <motion.div
@@ -102,7 +116,7 @@ const Skills = () => {
           className="text-center mb-24"
         >
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black text-gray-900 mb-8">
-            Technical{" "}
+            Technical Skills{" "}
             <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
               Skills
             </span>

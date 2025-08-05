@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import {
   FaGithub,
   FaEnvelope,
-  FaPhone,
   FaMapMarkerAlt,
   FaPaperPlane,
 } from "react-icons/fa";
@@ -47,7 +46,7 @@ const Contact = () => {
           </h2>
           <p className="text-xl sm:text-2xl lg:text-3xl text-gray-200 max-w-3xl mx-auto font-semibold">
             I'm always open to discussing new opportunities, interesting
-            projects, or just having a tech chat
+            projects, or just having a tech chat.
           </p>
         </motion.div>
 
@@ -88,7 +87,7 @@ const Contact = () => {
                 </div>
               </motion.div>
 
-              <motion.div
+              {/* <motion.div
                 className="flex items-center gap-4"
                 whileHover={{ x: 10 }}
                 transition={{ duration: 0.3 }}
@@ -100,7 +99,7 @@ const Contact = () => {
                   <p className="text-gray-400 text-sm">Phone</p>
                   <p className="text-white font-medium">+1 (214) 208-4198</p>
                 </div>
-              </motion.div>
+              </motion.div> */}
 
               <motion.div
                 className="flex items-center gap-4"
