@@ -1,59 +1,43 @@
-import Hero from "./components/Hero";
-import Skills from "./components/Skills";
-import Projects from "./components/Projects";
-import Education from "./components/Education";
-import Contact from "./components/Contact";
+import { BrowserRouter } from "react-router-dom";
 
-function App() {
+import {
+  About,
+  Contact,
+  Experience,
+  Hero,
+  Navbar,
+  Tech,
+  Works,
+  StarsCanvas,
+} from "./components";
+import { useEffect } from "react";
+import { config } from "./constants/config";
+
+const App = () => {
+  useEffect(() => {
+    if (document.title !== config.html.title) {
+      document.title = config.html.title;
+    }
+  }, []);
+
   return (
-    <div className="min-h-screen w-full bg-gradient-to-br from-slate-50 to-blue-50 text-gray-900">
-      {/* Simple Navigation Section */}
-      <nav className="bg-slate-900 py-6">
-        <div className="container mx-auto px-4">
-          <div className="flex justify-evenly items-center">
-            <a
-              href="#home"
-              className="text-white hover:text-blue-400 transition-colors duration-300 font-bold text-xl"
-            >
-              Home
-            </a>
-            <a
-              href="#skills"
-              className="text-white hover:text-blue-400 transition-colors duration-300 font-bold text-xl"
-            >
-              Skills
-            </a>
-            <a
-              href="#projects"
-              className="text-white hover:text-blue-400 transition-colors duration-300 font-bold text-xl"
-            >
-              Projects
-            </a>
-            <a
-              href="#education"
-              className="text-white hover:text-blue-400 transition-colors duration-300 font-bold text-xl"
-            >
-              Education
-            </a>
-            <a
-              href="#contact"
-              className="text-white hover:text-blue-400 transition-colors duration-300 font-bold text-xl"
-            >
-              Contact
-            </a>
-          </div>
+    <BrowserRouter>
+      <div className="bg-primary relative z-0">
+        <div className="bg-hero-pattern bg-cover bg-center bg-no-repeat">
+          <Navbar />
+          <Hero />
         </div>
-      </nav>
-
-      <main>
-        <Hero />
-        <Skills />
-        <Projects />
-        <Education />
-        <Contact />
-      </main>
-    </div>
+        <About />
+        <Experience />
+        <Tech />
+        <Works />
+        <div className="relative z-0">
+          <Contact />
+          <StarsCanvas />
+        </div>
+      </div>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;

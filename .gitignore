@@ -25,5 +25,5 @@ dist-ssr
 node_modules/
 dist/
 .env
-public/Resume_Amosh_Sapkota_2025.docx.pdf
+public/resume.pdf
 public/profile.jpg
