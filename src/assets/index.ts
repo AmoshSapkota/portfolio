@@ -1,4 +1,4 @@
-import logo from "./logo.png";
+//import logo from "./logo.png";
 import backend from "./backend.svg";
 import creator from "./creator.svg";
 import mobile from "./mobile.svg";
@@ -36,7 +36,6 @@ import xelwel from "./company/xelwel.png";
 
 
 export {
-  logo,
   backend,
   creator,
   mobile,
